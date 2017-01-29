@@ -1,0 +1,30 @@
+{
+  "name": "datastruct",
+  "version": "0.1.0",
+  "description": "Various data structures and algorithms written in JavaScript",
+  "keywords": [
+    "data structures",
+    "structures",
+    "stack",
+    "queue"
+  ],
+  "main": "lib/index.js",
+  "author": "Jan Jadud <jan.jadud@gmail.com> (https://github.com/westrem)",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "test": "mocha --reporter spec tools/setup.test.js \"src/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch",
+    "prepublish": "gulp build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.22.0",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "mocha": "^3.2.0"
+  }
+}
