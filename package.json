@@ -8,6 +8,10 @@
     "stack",
     "queue"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/westrem/datastruct"
+  },
   "main": "lib/index.js",
   "author": "Jan Jadud <jan.jadud@gmail.com> (https://github.com/westrem)",
   "license": "MIT",
